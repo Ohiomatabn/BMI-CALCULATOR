@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 10px;
+}
+
+body{
+  background: #444;
+  font-family: Sans-Serif;
+  color: white;
+}
+
+.container{
+  width: 90%;
+  margin: auto;
+}
+
+.wrapper{
+  max-width: 500px;
+  padding: 2rem;
+}
+
+h1{
+  font-size: 5rem;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.flex{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-size: 2rem;
+}
+
+input{
+  width: 100%;
+  padding: 2rem 1rem;
+  margin: 2rem 0 2rem 2rem;
+  border: none;
+  border-radius: .5rem;
+  outline: none;
+  font-size: 2rem;
+}
+
+.unit{
+  position: absolute;
+  right: 1rem;
+  z-index: 10;
+  color: black;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.calculate, .clear{
+  background: #77AC78;
+  color: white;
+  width: 48%;
+  padding: 2rem 1rem;
+  border: none;
+  border-radius: .5rem;
+  font-size: 1.7rem;
+}
+
+.calculate:active{
+  background: green;
+}
+
+.clear{
+  background:red;
+}
+
+.clear:active{
+  background: #990000;
+}
+
+#result{
+  padding: 1rem 2rem;
+  font-size: 1.8rem;
+}
+
+.severe-thiness{
+  background: red;
+}
+
+.normal{
+  background: #77AC78;
+}
+
+.overweight, .mild-thiness{
+  background: #f2f20d;
+  color: black;
+}
+
+.obesity-iii{
+  background: #990000;
+}
+
+.obesity-ii{
+  background: #ee6666;
+}
+
+.obesity-i{
+  background: #ff4444;
+}
