@@ -43,9 +43,3 @@ document.getElementById('clear').addEventListener('click"', () =>{
   height.value = 0;
   result.innerHTML = '';
 });
-
-document.addEventListener('onkeyup', (key)=>{
-  if(key === 'enter'){
-    calculate()
-  }
-})
