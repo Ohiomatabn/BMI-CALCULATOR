@@ -89,6 +89,10 @@ input{
   font-size: 1.8rem;
 }
 
+.default{
+  background: #444;
+}
+
 .severe-thiness{
   background: red;
 }
