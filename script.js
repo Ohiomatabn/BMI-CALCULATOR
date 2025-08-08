@@ -1,6 +1,6 @@
 const weight = document.getElementById('weight');
 const height = document.getElementById('height');
-let rusult = document.getElementById('result')
+let rusult = document.getElementById('result');
 
 function calculate(){
   let heightValue = height.value / 100;
@@ -38,8 +38,10 @@ document.querySelector('.calculate').addEventListener('click', () =>{
   calculate();
 });
 
-document.getElementById('clear').addEventListener('click"', () =>{
+document.querySelector('#clear').addEventListener('click', () =>{
   weight.value = 0;
   height.value = 0;
   result.innerHTML = '';
+  result.classList = 'default'
+  console.log(weight.value)
 });
